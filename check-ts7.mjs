@@ -5,7 +5,7 @@
 // TypeScript 7 rejects.
 //
 // Usage, from anywhere inside the project's git repository:
-//   npx -y @sandersn/check-ts7 [--baseline <git-ref>]
+//   npx -y @sanders_n/check-ts7 [--baseline <git-ref>]
 //
 // --baseline (default HEAD) is the commit before the upgrade. It is used to find
 // declarations that were deleted instead of upgraded.

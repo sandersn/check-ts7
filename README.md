@@ -1,4 +1,4 @@
-# @sandersn/check-ts7
+# @sanders_n/check-ts7
 
 Lists what still blocks a TypeScript 7 upgrade in a repository:
 
@@ -13,13 +13,13 @@ It only reads files. It checks declarations and configuration, not code, so a cl
 Run it from anywhere inside the project's git repository:
 
 ```sh
-npx -y @sandersn/check-ts7
+npx -y @sanders_n/check-ts7
 ```
 
 To also find declarations that were deleted, pass the commit from before the upgrade:
 
 ```sh
-npx -y @sandersn/check-ts7 --baseline <git-ref>
+npx -y @sanders_n/check-ts7 --baseline <git-ref>
 ```
 
 `--baseline` defaults to `HEAD`.
