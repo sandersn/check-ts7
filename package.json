@@ -1,0 +1,49 @@
+{
+  "name": "@sandersn/check-ts7",
+  "version": "0.1.0",
+  "description": "List what still blocks a TypeScript 7 upgrade: typescript declarations that don't allow 7.x and tsconfig options TypeScript 7 removed.",
+  "keywords": [
+    "typescript",
+    "typescript-7",
+    "tsgo",
+    "migration",
+    "upgrade",
+    "tsconfig",
+    "monorepo"
+  ],
+  "license": "MIT",
+  "author": "Nathan Shively-Sanders",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandersn/check-ts7.git"
+  },
+  "bugs": "https://github.com/sandersn/check-ts7/issues",
+  "homepage": "https://github.com/sandersn/check-ts7#readme",
+  "type": "module",
+  "bin": {
+    "check-ts7": "check-ts7.mjs"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "check-ts7.mjs"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@manypkg/get-packages": "^2.2.2",
+    "@manypkg/tools": "^1.1.2",
+    "get-tsconfig": "^4.14.3",
+    "semver": "^7.7.0"
+  },
+  "devDependencies": {
+    "prettier": "3.8.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
