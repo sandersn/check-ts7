@@ -32,7 +32,7 @@
     "node": ">=16"
   },
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/check-ts7.test.mjs"
   },
   "dependencies": {
     "@manypkg/get-packages": "^2.2.2",
