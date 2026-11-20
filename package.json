@@ -1,5 +1,5 @@
 {
-  "name": "@sandersn/check-ts7",
+  "name": "@sanders_n/check-ts7",
   "version": "0.1.0",
   "description": "List what still blocks a TypeScript 7 upgrade: typescript declarations that don't allow 7.x and tsconfig options TypeScript 7 removed.",
   "keywords": [
@@ -32,7 +32,7 @@
     "node": ">=16"
   },
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/check-ts7.test.mjs"
   },
   "dependencies": {
     "@manypkg/get-packages": "^2.2.2",
